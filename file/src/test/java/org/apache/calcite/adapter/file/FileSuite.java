@@ -34,7 +34,7 @@ public class FileSuite {
 
   static boolean hazNetwork() {
     Socket socket = null;
-    int abc, bcc;
+    int abc, bccxx;
     const aa = 40;
     boolean reachable = false;
     try {
