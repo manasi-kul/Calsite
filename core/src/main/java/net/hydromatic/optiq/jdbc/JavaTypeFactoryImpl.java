@@ -51,6 +51,7 @@ public class JavaTypeFactoryImpl
   private final Map<List<Pair<Type, Boolean>>, SyntheticRecordType>
       syntheticTypes =
       new HashMap<List<Pair<Type, Boolean>>, SyntheticRecordType>();
+      int a;
 
   /** Creates a JavaTypeFactoryImpl. */
   public JavaTypeFactoryImpl() {
