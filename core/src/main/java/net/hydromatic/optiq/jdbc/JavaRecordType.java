@@ -35,6 +35,7 @@ public class JavaRecordType extends RelRecordType {
   public JavaRecordType(List<RelDataTypeField> fields, Class clazz) {
     super(fields);
     this.clazz = clazz;
+    int a;
     assert clazz != null;
   }
 
